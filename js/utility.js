@@ -16,7 +16,29 @@ function removeBackgroundElementById(elementId){
     const element =document.getElementById(elementId);
     element.classList.remove('bg-orange-400');  
 }
+// extra part working by function
+function getTextElementValueById(elementId){
+    const element =document.getElementById(elementId);
+    const elementValueText = element.innerText;
+    const value =parseInt(elementValueText);
+    return value;
+}
+function setTextElementValueById(elementId , value){
+    const element =document.getElementById(elementId);
+    element.innerText = value;
+}
+function getElementTextById(elementId){
+    const element =document.getElementById(elementId);
+    const text =element.innerText;
+    return text;
+}
 
+
+
+ 
+
+// extra part working by function end
+// ...........................................
 function getARandonAlphabet(){
     // get or create an alphabet array
     const alphabetString = 'abcdefghijklmnopqrstuvwyxz'

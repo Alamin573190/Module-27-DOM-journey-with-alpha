@@ -94,16 +94,19 @@
          </div>
       </section>
       <!-- Score  -->
-      <section class="hidden score flex justify-center items-center min-h-screen ">
+      <section id="final-score" class="hidden  flex justify-center items-center min-h-screen ">
          <div class="text-center space-y-10 bg-[#FFFFFF33] p-10 rounded-lg">
-            <h1 class="text-white text-6xl font-extrabold">score : 14</h1>
-            <button class="btn bg-white text-black p-5 ">Play Again</button>
+            <h4 class="text-3xl text-white">Game over!!</h4>
+            <h1 class="text-white text-6xl "><span class="font-extrabold">score : </span> <span id="last-score" >14</span></h1>
+            <button onclick="play()" class="btn bg-white text-black p-5 ">Play Again</button>
             <p class="text-white text-xl font-medium">Practice will make you Pro</p>
          </div>
       </section>
    </main>
    <script src="js/utility.js"></script>
    <script src="js/alpha-class.js"></script>
+
+   
 </body>
 
 </html>
